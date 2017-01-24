@@ -38,7 +38,14 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.7.1",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wp-sync-db/wp-sync-db": "dev-master@dev",
+    "automattic/woocommerce": "^1.1",
+    "wpackagist-plugin/contact-form-7": "^4.6",
+    "wpackagist-plugin/woocommerce-gateway-stripe": "^3.0",
+    "wpackagist-plugin/woocommerce-store-toolkit": "^1.6",
+    "wpackagist-plugin/wp-all-import": "^3.4",
+    "wpackagist-plugin/elementor": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

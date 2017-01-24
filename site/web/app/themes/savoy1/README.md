@@ -1,1 +1,0 @@
-# Savoy-WooCommerce-theme
