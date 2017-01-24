@@ -1,2 +1,5 @@
 {
+    "require": {
+        "woocommerce/woocommerce": "^2.6"
+    }
 }
