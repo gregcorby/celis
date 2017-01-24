@@ -40,7 +40,7 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-sync-db/wp-sync-db": "dev-master@dev",
-    "automattic/woocommerce": "^1.1",
+    "woocommerce/woocommerce": "^2.6",
     "wpackagist-plugin/contact-form-7": "^4.6",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^3.0",
     "wpackagist-plugin/woocommerce-store-toolkit": "^1.6",
