@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "99f02f176ebfd3f2927924b710693653",
+    "content-hash": "e12783ac4fbf9ab2a3eb4bc022b2168b",
     "packages": [
         {
             "name": "composer/installers",
@@ -399,6 +399,26 @@
             "time": "2016-04-24 08:56:12"
         },
         {
+            "name": "wpackagist-plugin/addon-elements-for-elementor-page-builder",
+            "version": "0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/addon-elements-for-elementor-page-builder/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/addon-elements-for-elementor-page-builder.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/addon-elements-for-elementor-page-builder/"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "4.6.1",
             "source": {
@@ -529,7 +549,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-scraper.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
