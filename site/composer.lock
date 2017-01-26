@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d33d152af7225cb86c804ad8f45813f3",
+    "content-hash": "eb5fa4da37f118b538b6210e6091e9c4",
     "packages": [
         {
             "name": "composer/installers",
@@ -105,17 +105,6 @@
                 "zikula"
             ],
             "time": "2016-04-13T19:46:30+00:00"
-        },
-        {
-            "name": "gregcorby/composer",
-            "version": "4.12",
-            "dist": {
-                "type": "zip",
-                "url": "https://dl.dropbox.com/s/1ihdx0uyrilt224/js_composer.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -530,6 +519,26 @@
             "homepage": "https://wordpress.org/plugins/woocommerce-xml-csv-product-import/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
             "name": "wpackagist-plugin/wp-all-import",
             "version": "3.4.0",
             "source": {
@@ -617,6 +626,17 @@
                 "woocommerce"
             ],
             "time": "2016-12-14T19:12:47+00:00"
+        },
+        {
+            "name": "gregcorby/composer",
+            "version": "4.12",
+            "dist": {
+                "type": "zip",
+                "url": "https://dl.dropbox.com/s/1ihdx0uyrilt224/js_composer.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "squizlabs/php_codesniffer",
